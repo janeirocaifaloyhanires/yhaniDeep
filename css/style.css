@@ -80,3 +80,68 @@ header nav ul li a:hover{
     background:#222;
     color:#fff;
 }
+/*Sessão trabalho destaques*/
+.trabalhosDestaque{
+    background:#fff;
+    padding-top:5px;
+}
+.trabalhosDestaque .tituloTrabalhos{
+    width:250px;
+    background:#222;
+    color:#06fdfa;
+    font-size:2rem;
+    border-radius:0 10px 10px 0;
+    text-align:center;
+    padding:5px 0;
+}
+.trabalhosDestaque .container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width:auto;
+    height:auto;
+   
+}
+.trabalhosDestaque .container .card{
+    width:590px;;
+    height:auto;
+    overflow: hidden;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    margin:1% 2% 5% 2%;
+    padding:10px;
+    border-radius:15px;
+    background:#111;
+    text-align: center;
+}
+.trabalhosDestaque .container .card img{
+    width:100%;
+    height:300px;
+}
+.trabalhosDestaque .container .card h3{
+    font-size:1.5rem;
+    color:#111;
+    background:#fff;
+}
+.trabalhosDestaque .container .card p{
+    margin:2% 0;
+    color:#fff;
+    font-size:1.3rem;
+}
+.trabalhosDestaque .container .card a{
+    display: inline-block;
+    width:200px;
+    background:#222;
+    color:#fff;
+    border-radius:20px;
+    padding:5px;
+    text-decoration: none;
+    font-size:1.2rem;
+    border:1px solid #222;
+    transition:1s;
+}
+.trabalhosDestaque .container .card a:hover{
+    background:#111;
+    color:#e5e3e7;
+    border:1px solid #222;
+}
